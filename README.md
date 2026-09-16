@@ -168,6 +168,6 @@ piensa tanto en Photoshop como en un archivo `.css`.
 
 <div align="center">
 
-**Hecho con 💜 y `cursor: pointer`**
+**Hecho con 💜 y `Bettylopdesigner`**
 
 </div>
