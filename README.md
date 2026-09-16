@@ -9,7 +9,8 @@
   ╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝
 ```
 
-<img src="Registro/assets/logo.png" alt="BettyLopDesigner" width="140">
+<img src="Menu_DB/assets/logo.png" alt="BettyLopDesigner" width="140">
+
 
 ### `> nav.render() && dropdown.activate()` — **Born to Code** 💜
 
