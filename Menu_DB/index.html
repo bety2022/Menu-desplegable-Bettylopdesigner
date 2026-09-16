@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú — BettyLopDesigner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ NAVBAR CON MENÚ DESPLEGABLE ============ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+
+      <a href="#" class="nav-brand">
+        <img src="assets/logo.png" alt="BettyLopDesigner" class="nav-logo">
+        <span class="brand-name">BETTYLOPDESIGNER<span class="dot">.com</span></span>
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <ul>
+          <li><a href="#" class="nav-link active">Inicio</a></li>
+
+          <li class="dropdown">
+            <button class="nav-link dropdown-toggle">Diseños <span class="caret">▾</span></button>
+            <div class="dropdown-menu">
+              <a href="#"><span class="menu-tag">NEW!</span> Camisetas dev</a>
+              <a href="#">Hoodies &amp; crewnecks</a>
+              <a href="#">Gorras &amp; accesorios</a>
+              <a href="#">Stickers &amp; pines</a>
+            </div>
+          </li>
+
+          <li class="dropdown">
+            <button class="nav-link dropdown-toggle">Colecciones <span class="caret">▾</span></button>
+            <div class="dropdown-menu">
+              <a href="#"><span class="menu-tag hot">HOT</span> Born to Code 2026</a>
+              <a href="#">Data Analyst Edition</a>
+              <a href="#">Debug Mode</a>
+              <a href="#">Ver todas</a>
+            </div>
+          </li>
+
+          <li class="dropdown">
+            <button class="nav-link dropdown-toggle">Tiendas <span class="caret">▾</span></button>
+            <div class="dropdown-menu">
+              <a href="#">Tienda online</a>
+              <a href="#">Redbubble oficial</a>
+              <a href="#">Puntos físicos</a>
+            </div>
+          </li>
+
+          <li><a href="#" class="nav-link">Sobre mí</a></li>
+          <li><a href="#" class="nav-link">Blog</a></li>
+          <li><a href="#" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+
+        <div class="search-wrap">
+          <button class="icon-btn" id="searchToggle" aria-label="Buscar">🔍</button>
+          <div class="search-box" id="searchBox">
+            <input type="text" placeholder="&quot;Buscar diseños, colecciones...&quot;" id="searchInput">
+          </div>
+        </div>
+
+        <button class="icon-btn cart-btn" id="cartBtn" aria-label="Carrito de compras">
+          🛒 <span class="cart-count" id="cartCount">0</span>
+        </button>
+
+        <button class="btn-cta">[ Shop Now ]</button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ============ CONTENIDO DE DEMOSTRACIÓN ============ -->
+  <main>
+    <div class="bg-decor" aria-hidden="true">
+      <span class="glyph g1">function design() {</span>
+      <span class="glyph g2">return aesthetic;</span>
+      <span class="glyph g3">}</span>
+      <span class="glyph g4">&lt;/&gt;</span>
+    </div>
+
+    <section class="hero">
+      <span class="hero-badge">✦ NUEVA COLECCIÓN 2026</span>
+      <p class="hero-eyebrow">// LANZAMIENTO EXCLUSIVO</p>
+      <h1 class="hero-title">BORN TO<br><span>CODE</span></h1>
+      <p class="hero-subtitle">Diseño para quienes piensan en código &amp; crean en pixeles.</p>
+      <div class="hero-actions">
+        <button class="btn-cta large">[ Ver Colección ]</button>
+        <button class="btn-outline large">// Explorar</button>
+      </div>
+    </section>
+
+  <!-- ============ CONTENIDO DE DEMOSTRACIÓN ============ -->
+  </main>
+
+  <footer class="page-footer">
+    © 2026 BettyLopDesigner · Born to Code Collection · bettylopdesigner.com
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
